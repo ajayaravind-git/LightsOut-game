@@ -105,13 +105,15 @@ class Board extends Component {
     }
 
 
-    return this.state.hasWon ? <div><h1>You won</h1></div> : (<div>
+    return this.state.hasWon ? <div><h1><span className="neon">You</span><span className="flux">Won</span></h1></div> : <div>
+      <span className="neon">Lights</span><br></br>
+      <span className="flux">Out</span>
       <table className="Board">
         <tbody>
           {tblBoard}
         </tbody>
       </table>
-    </div>)
+    </div>
   }
 }
 
