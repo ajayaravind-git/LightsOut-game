@@ -87,7 +87,7 @@ class Board extends Component {
 
 
 
-    let hasWon = board.every(row => row.every(cell => !cell))  //checknig if ever cell is false(!cell) for every row.
+    let hasWon = board.every(row => row.every(cell => !cell));  //checknig if ever cell is false(!cell) for every row.
     this.setState({ board: board, hasWon: hasWon });
   }
 
