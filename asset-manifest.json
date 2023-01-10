@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/LightsOut-game/static/css/main.bc2642c6.css",
+    "main.js": "/LightsOut-game/static/js/main.d520c589.js",
+    "index.html": "/LightsOut-game/index.html",
+    "main.bc2642c6.css.map": "/LightsOut-game/static/css/main.bc2642c6.css.map",
+    "main.d520c589.js.map": "/LightsOut-game/static/js/main.d520c589.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc2642c6.css",
+    "static/js/main.d520c589.js"
+  ]
+}
